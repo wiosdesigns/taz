@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: #050c0c;
+  color: #ffffff;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  justify-items: left; 
+}
+
+textarea{
+  font-family: monospace;
+  font-size: 1.5rem;
+  background: #050c0c;
+  border: 0.1rem solid #102626;
+  color: #0066ff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+textarea:focus{
+  border: 0.1rem solid #102626;
+  outline: none;
+  min-height: 100%;
+}
+#preview{
+  padding: 1rem;
+}
+svg{
+  height: 2rem;
+}

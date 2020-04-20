@@ -1,0 +1,7 @@
+symbol:home
+M10 40 L90 40 L55 20 L45 20 Z
+M15 47.5 L15 80 L85 80 L85 47.5 Z
+M40 80 L60 80 L60 55 L40 55 Z 
+:symbol
+
+use:home
